@@ -1,0 +1,23 @@
+.modeSelector {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 470px;
+}
+  
+.modeSelector button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #ffecff;
+    color: #3d3d3d;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.modeSelector button:disabled {
+    background: #ffadff;
+    cursor: not-allowed;
+}
+  

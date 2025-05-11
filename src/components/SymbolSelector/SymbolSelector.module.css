@@ -1,0 +1,22 @@
+
+.symbolSelector {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+  
+.symbolSelector button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #ffecff;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+  
+.symbolSelector button:disabled {
+    background: #ffadff;
+    cursor: not-allowed;
+}
+  

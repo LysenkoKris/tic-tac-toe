@@ -1,0 +1,24 @@
+.container {
+    margin: 0 auto;
+    opacity: 1;
+    transform: scale(1);
+    height: fit-content; 
+    width: fit-content
+}
+
+.boardRow {
+    width: fit-content;
+}
+
+.board {
+    width: fit-content;
+    position: 'relative';
+    z-Index: 1;
+    padding: '20px'
+}
+
+.boardRow:after {
+    clear: both;
+    content: '';
+    display: table;
+}
